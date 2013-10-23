@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ruleset name="VVRules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <rule name="WhileLoopsMustUseBracesRule"
+        message="Avoid using 'while' statements without curly braces"
+         language="java"
+        class="vv.tp3.WhileLoopsMustUseBracesRule">
+        <description>
+            Avoid using 'while' statements without using curly braces
+        </description>
+        <priority>3</priority>
+        
+        <example>
+            <![CDATA[
+                public void doSomething() {
+                while (x < 100)
+                x++;
+                }
+            ]]>
+        </example>
+    </rule>
+    <rule name="DoubleForImbriques"
+        message="Avoid using two 'for' statements one after another"
+         language="java"
+        class="vv.tp3.DoubleForImbriques">
+        <description>
+            Avoid using two 'for' statements one after another
+        </description>
+        <priority>3</priority>
+        
+        <example>
+            <![CDATA[
+                public void doSomething() {
+                	for (int i = 0 ; i < 5 ; i++){
+						for (int j = 0 ; j< 5 ; j++) {
+							System.out.println("FOO");
+						}
+					}
+                }
+            ]]>
+        </example>
+    </rule>
+</ruleset>
