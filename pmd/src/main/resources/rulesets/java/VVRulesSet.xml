@@ -43,4 +43,39 @@
             ]]>
         </example>
     </rule>
+    <rule name="WhileBooleanViolation"
+        message="Avoid using 'while' statements with true or false"
+         language="java"
+        class="vv.tp3.WhileBooleanViolation">
+        <description>
+            Avoid using 'while' statements with true or false
+        </description>
+        <priority>3</priority>
+        <example>
+            <![CDATA[
+                public void doSomething() {
+                while (true)
+                	x++;
+                }
+            ]]>
+        </example>
+    </rule>
+    <rule name="WhileViolationBoolOrBreak"
+        message="Avoid using 'while' statements with true or false or which end by return or break"
+         language="java"
+        class="vv.tp3.WhileViolationBoolOrBreak">
+        <description>
+            Avoid using 'while' statements with true or false or which end by return or break
+        </description>
+        <priority>3</priority>
+        <example>
+            <![CDATA[
+                public void doSomething() {
+                while (true)
+                	x++;
+                	break;
+                }
+            ]]>
+        </example>
+    </rule>
 </ruleset>
