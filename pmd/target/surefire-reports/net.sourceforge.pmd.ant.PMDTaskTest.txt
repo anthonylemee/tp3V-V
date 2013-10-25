@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: net.sourceforge.pmd.ant.PMDTaskTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.148 sec
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.604 sec

@@ -1,13 +1,13 @@
 Start running test useEcmaScript
+Loaded rule GlobalVariable
+Loaded rule UnreachableCode
 Loaded rule ScopeForInVariable
 Loaded rule ConsistentReturn
+Loaded rule AvoidTrailingComma
 Loaded rule InnaccurateNumericLiteral
-Loaded rule UnreachableCode
-Loaded rule GlobalVariable
 Loaded rule AssignmentInOperand
 Loaded rule EqualComparison
-Loaded rule AvoidTrailingComma
 Using Ecmascript version: Ecmascript 3
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.0.5" timestamp="2013-10-23T11:54:47.041">
+<pmd version="5.0.5" timestamp="2013-10-25T17:52:48.829">
 </pmd>

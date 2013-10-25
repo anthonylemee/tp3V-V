@@ -6,6 +6,7 @@ import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
 
 public class WhileLoopsMustUseBracesRule extends AbstractJavaRule {
 
+	@Override
     public Object visit(ASTWhileStatement node, Object data) {
         Node firstStmt;
         firstStmt = (Node)node.jjtGetChild(1);
